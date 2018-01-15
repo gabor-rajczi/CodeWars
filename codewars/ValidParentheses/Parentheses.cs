@@ -17,12 +17,18 @@ namespace CodeWars.ValidParentheses
             int countOfCloseParentheses = 0;
             for (var i = 0; i < listOfChars.Length; i++)
             {
-                countOfOpenParentheses += listOfChars[i] == '(' ? 1 : 0;
-                countOfCloseParentheses += listOfChars[i] == ')' ? 1 : 0;
-                if (countOfCloseParentheses > countOfOpenParentheses)
-                    return false;
+                var currentCharacter = listOfChars[i];
+                if (currentCharacter == '(')
+                    countOfOpenParentheses++;
+                if (currentCharacter == ')')
+                {
+                    countOfCloseParentheses++;
+                    if (countOfCloseParentheses > countOfOpenParentheses)
+                        return false;
+                }
+             
             }
-            return countOfOpenParentheses == countOfCloseParentheses;
+            return countOfOpenParentheses == countOfCloseParentheses && countOfOpenParentheses != 0;
         }
     }
 }
