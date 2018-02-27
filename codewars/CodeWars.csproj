@@ -51,6 +51,8 @@
     <Otherwise />
   </Choose>
   <ItemGroup>
+    <Compile Include="ConsecutiveStrings\LongestConsecutives.cs" />
+    <Compile Include="ConsecutiveStrings\LongestConsecutivesTests.cs" />
     <Compile Include="FindTheParityOutlier\IntExtensions.cs" />
     <Compile Include="FindTheParityOutlier\Tests.cs" />
     <Compile Include="FindTheParityOutlier\Kata.cs" />
