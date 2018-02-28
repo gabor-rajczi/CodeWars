@@ -45,5 +45,23 @@ namespace CodeWars.LeastCommonMultiple
             if (numbers.Length < 2) throw new ArgumentException("Too short input array!");
             return numbers.Aggregate(Calculate);
         }
+
+
+        /*
+         * https://stackoverflow.com/questions/147515/least-common-multiple-for-3-or-more-numbers/29717490#29717490
+         */
+         static long LCM(long[] numbers)
+            {
+                return numbers.Aggregate(lcm);
+            }
+            static long lcm(long a, long b)
+            {
+                return Math.Abs(a * b) / GCD(a, b);
+            }
+            static long GCD(long a, long b)
+            {
+                return b == 0 ? a : GCD(b, a % b);
+            }
+         
     }
 }
