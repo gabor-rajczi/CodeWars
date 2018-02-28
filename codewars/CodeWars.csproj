@@ -58,6 +58,8 @@
     <Compile Include="FindTheParityOutlier\IntExtensions.cs" />
     <Compile Include="FindTheParityOutlier\Tests.cs" />
     <Compile Include="FindTheParityOutlier\Kata.cs" />
+    <Compile Include="LeastCommonMultiple\LeastCommonMultiple.cs" />
+    <Compile Include="LeastCommonMultiple\LeastCommonMultipleTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TribonacciSequence\Xbonacci.cs" />
     <Compile Include="TribonacciSequence\XbonacciTest.cs" />
