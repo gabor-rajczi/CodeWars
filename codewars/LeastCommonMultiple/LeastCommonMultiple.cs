@@ -28,7 +28,7 @@ namespace CodeWars.LeastCommonMultiple
             return lcm;
         }
 
-        public static int Calculate(int[] numbers)
+        public static int Calculate2(int[] numbers)
         {
             if(numbers.Length<2) throw new ArgumentException("Too short input array!");
             while (true)
@@ -38,6 +38,12 @@ namespace CodeWars.LeastCommonMultiple
                 numbers = numbers.Where((value, index) => index != 0).ToArray();
                 numbers[0] = lcm;
             }
+        }
+
+        public static int Calculate(int[] numbers)
+        {
+            if (numbers.Length < 2) throw new ArgumentException("Too short input array!");
+            return numbers.Aggregate(Calculate);
         }
     }
 }
