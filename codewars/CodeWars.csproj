@@ -55,6 +55,8 @@
     <Compile Include="BuildTower\BuildTowerTest.cs" />
     <Compile Include="ConsecutiveStrings\LongestConsecutives.cs" />
     <Compile Include="ConsecutiveStrings\LongestConsecutivesTests.cs" />
+    <Compile Include="Dubstep\Dubstep.cs" />
+    <Compile Include="Dubstep\DubstepTests.cs" />
     <Compile Include="FindTheParityOutlier\IntExtensions.cs" />
     <Compile Include="FindTheParityOutlier\Tests.cs" />
     <Compile Include="FindTheParityOutlier\Kata.cs" />
