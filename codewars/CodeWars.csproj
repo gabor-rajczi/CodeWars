@@ -63,6 +63,8 @@
     <Compile Include="LeastCommonMultiple\LeastCommonMultiple.cs" />
     <Compile Include="LeastCommonMultiple\LeastCommonMultipleTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SimplePigLatin\SimplePigLatin.cs" />
+    <Compile Include="SimplePigLatin\SimplePigLatinTest.cs" />
     <Compile Include="TribonacciSequence\Xbonacci.cs" />
     <Compile Include="TribonacciSequence\XbonacciTest.cs" />
     <Compile Include="ValidParentheses\Parentheses.cs" />
