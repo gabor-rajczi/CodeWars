@@ -13,7 +13,6 @@ namespace CodeWars.MiddlePermutation
             var rec = new Recursion();
             rec.InputSet = rec.MakeCharArray(s);
             rec.CalcPermutation(0);
-            var a = GeneratePermutations(s.ToCharArray());
             var permutations = rec.Result.OrderBy(r => r).ToList();
             var numberOfPermutations = permutations.Count;
             var result = permutations.Count == 0
@@ -22,15 +21,6 @@ namespace CodeWars.MiddlePermutation
                     ? numberOfPermutations/2 - 1
                     : (numberOfPermutations + 1)/2 - 1);
             return result;
-        }
-
-        private List<char[]> GeneratePermutations(char[] input)
-        {
-            var result = new List<char[]>();
-            if (input.Length == 1)
-            {
-                
-            }
         }
 
         /// <summary>
