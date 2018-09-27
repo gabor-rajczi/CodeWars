@@ -51,6 +51,8 @@
     <Otherwise />
   </Choose>
   <ItemGroup>
+    <Compile Include="BattleshipFieldValidator\BattleshipField.cs" />
+    <Compile Include="BattleshipFieldValidator\SolutionTest.cs" />
     <Compile Include="BuildTower\BuildTower.cs" />
     <Compile Include="BuildTower\BuildTowerTest.cs" />
     <Compile Include="ConsecutiveStrings\LongestConsecutives.cs" />
