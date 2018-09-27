@@ -56,5 +56,39 @@ namespace CodeWars.BattleshipFieldValidator
                       {0, 0, 0, 0, 0, 0, 0, 0, 0, 0}};
             Assert.IsFalse(BattleshipField.ValidateBattlefield(field));
         }
+
+        [Test]
+        public void TestCase5()
+        {
+            int[,] field = new int[10, 10]
+                     {{1, 0, 1, 0, 1, 0, 1, 0, 1, 0},
+                      {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+                      {0, 1, 0, 1, 0, 1, 0, 1, 0, 1},
+                      {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+                      {1, 0, 1, 0, 1, 0, 1, 0, 1, 0},
+                      {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+                      {0, 1, 0, 1, 0, 1, 0, 1, 0, 1},
+                      {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+                      {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+                      {0, 0, 0, 0, 0, 0, 0, 0, 0, 0}};
+            Assert.IsFalse(BattleshipField.ValidateBattlefield(field));
+        }
+
+        [Test]
+        public void TestCse6()
+        {
+            int[,] field = new int[10, 10]
+                      {{1, 0, 0, 0, 0, 1, 1, 0, 0, 0},
+                       {1, 0, 1, 0, 0, 0, 0, 0, 1, 0},
+                       {1, 0, 1, 0, 1, 1, 1, 0, 1, 0},
+                       {1, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+                       {0, 0, 0, 0, 0, 0, 0, 0, 1, 0},
+                       {0, 0, 0, 1, 1, 1, 1, 0, 0, 0},
+                       {0, 0, 0, 0, 0, 0, 0, 0, 1, 0},
+                       {0, 0, 0, 1, 0, 0, 0, 0, 0, 0},
+                       {0, 0, 0, 0, 0, 0, 0, 1, 0, 0},
+                       {0, 0, 0, 0, 0, 0, 0, 0, 0, 0}};
+            Assert.IsFalse(BattleshipField.ValidateBattlefield(field));
+        }
     }
 }
