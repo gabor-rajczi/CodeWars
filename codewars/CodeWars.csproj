@@ -70,6 +70,12 @@
     <Compile Include="NextSmallerNumberWithTheSameDigits\Kata.cs" />
     <Compile Include="NextSmallerNumberWithTheSameDigits\Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reflection\GiveMeAllMethods\ExampleClass.cs" />
+    <Compile Include="Reflection\GiveMeAllMethods\Refl.cs" />
+    <Compile Include="Reflection\GiveMeAllMethods\Reflection.cs" />
+    <Compile Include="Reflection\GiveMeAllMethods\ReflectionTests.cs" />
+    <Compile Include="Reflection\GiveMeTypes\Reflection.cs" />
+    <Compile Include="Reflection\GiveMeTypes\SolutionTest.cs" />
     <Compile Include="SimplePigLatin\SimplePigLatin.cs" />
     <Compile Include="SimplePigLatin\SimplePigLatinTest.cs" />
     <Compile Include="TribonacciSequence\Xbonacci.cs" />
