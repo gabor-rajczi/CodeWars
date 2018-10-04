@@ -62,6 +62,8 @@
     <Compile Include="FindTheParityOutlier\IntExtensions.cs" />
     <Compile Include="FindTheParityOutlier\Tests.cs" />
     <Compile Include="FindTheParityOutlier\Kata.cs" />
+    <Compile Include="HelpYourGranny\Tour.cs" />
+    <Compile Include="HelpYourGranny\TourTests.cs" />
     <Compile Include="LeastCommonMultiple\LeastCommonMultiple.cs" />
     <Compile Include="LeastCommonMultiple\LeastCommonMultipleTest.cs" />
     <Compile Include="MiddlePermutation\Kata.cs" />
