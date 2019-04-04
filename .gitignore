@@ -27,3 +27,5 @@ obj/
 [Rr]elease*/
 _ReSharper*/
 [Tt]est[Rr]esult*
+codewars.code/.vscode/launch.json
+codewars.code/.vscode/tasks.json
